@@ -7,78 +7,62 @@ document.getElementById("menu-toggle").addEventListener("click", function () {
   document.getElementById("nav-links").classList.toggle("active");
 });
 
-// Store all records globally for search
-let allRecords = [];
+let allData = [];
 
-// Container where cards will be displayed
-const container = document.querySelector(".products-cards-main");
-
-// Function to render records (initial + filtered)
-function renderRecords(records) {
-  container.innerHTML = ""; // Clear previous cards
-
-  records.forEach(item => {
-    const card = document.createElement("div");
-    card.className = "products-cards-sub";
-
-    const title = item.title || "Unknown Album";
-    const thumb = item.thumb || "./images/Cards/default.jpg";
-    const year = item.year || "Unknown Year";
-    const artist = item.title?.split(" - ")[0] || "Unknown Artist";
-    const genre = item.genre?.join(', ') || "Genre not listed";
-    const price = (Math.floor(Math.random() * 50) + 50) + "$";
-
-    card.innerHTML = `
-      <ul>
-        <li><img src="${thumb}" alt="${title}"></li>
-        <li class="green-txt"><b>${title}</b></li>
-        <li class="green-txt">${artist}</li>
-        <li class="green-txt">${year}</li>
-        <li class="green-txt">${genre}</li>
-        <li class="green-txt">${price}</li>
-        <li><button class="products-cards-btn">Buy Now</button></li>
-      </ul>
-    `;
-
-    container.appendChild(card);
-  });
-}
-
-// Fetch from Discogs API and save to allRecords
-const token = "yeSzMhUaxdAUtfEbFIULutdzssHnwCZTwocnhLlV";
-
-fetch(`https://api.discogs.com/database/search?q=vinyl&type=release&token=${token}`)
+// Fetch and store full data
+fetch("./json/records.json")
   .then(res => res.json())
   .then(data => {
-    // Save results to allRecords for search functionality
-    allRecords = data.results.slice(0, 20);
-
-    // Render initially
-    renderRecords(allRecords);
-  })
-  .catch(error => {
-    console.error("Error fetching records from Discogs:", error);
-    container.innerHTML = "<p style='color:red;'>Failed to load records.</p>";
+    allData = data;
+    renderCards(data);
   });
 
+function renderCards(data) {
+  let output = "";
 
-// SEARCH FUNCTIONALITY
-document.getElementById("searchBar").addEventListener("input", () => {
-  // Current text entered in the search box
-  const searchBar = document.getElementById("searchBar").value.toLowerCase();
+  data.forEach(item => {
+    const title = item.title;
+    const thumb = `./images/Cards/${item.thumbnail}`;
+    const year = item["release-year"];
+    const artist = item.artist;
+    const genre = item.catagory;
+    const price = item.price;
 
-  const filtered = allRecords.filter(item => {
+    output += `
+      <div class="products-cards-sub">
+        <ul>
+          <li><img src="${thumb}" alt="${title}"></li>
+          <li class="green-txt"><b>${title}</b></li>
+          <li class="green-txt">${artist}</li>
+          <li class="green-txt">${year}</li>
+          <li class="green-txt">${genre}</li>
+          <li class="green-txt">${price}</li>
+          <li><button class="products-cards-btn">Buy Now</button></li>
+        </ul>
+      </div>
+    `;
+  });
+
+  document.querySelector(".products-cards-main").innerHTML = output;
+}
+
+// Search bar
+document.getElementById("searchBar").addEventListener("input", function () {
+  const query = this.value.toLowerCase();
+
+  const filtered = allData.filter(item => {
     const title = item.title?.toLowerCase() || "";
-    const artist = item.title?.split(" - ")[0].toLowerCase() || "";
-    const year = item.year?.toString() || "";
+    const artist = item.artist?.toLowerCase() || "";
+    const year = item["release-year"]?.toString() || "";
 
     return (
-      title.includes(searchBar) ||
-      artist.includes(searchBar) ||
-      year.includes(searchBar)
+      title.includes(query) ||
+      artist.includes(query) ||
+      year.includes(query)
     );
   });
 
-  // Render only filtered records
-  renderRecords(filtered);
+  renderCards(filtered);
 });
+
+

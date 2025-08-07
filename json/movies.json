@@ -1,0 +1,112 @@
+[
+    {
+        "no": 1,
+        "title": "Demon Slayer",
+        "release-year": 2025,
+        "genre": "Action, Animation",
+        "price": "500 pkr",
+        "thumbnail": "M1.jpg"
+    },
+
+    {
+        "no": 2,
+        "title": "Fantastic Four: First Steps",
+        "release-year": 2025,
+        "genre": "Action, Sci-fi",
+        "price": "500 pkr",
+        "thumbnail": "M2.jpg"
+    },
+
+    {
+        "no": 3,
+        "title": "The Naked gun",
+        "release-year": 2025,
+        "genre": "Action, Comedy",
+        "price": "500 pkr",
+        "thumbnail": "M3.jpg"
+    },
+
+    {
+        "no": 4,
+        "title": "F1",
+        "release-year": 2025,
+        "genre": "Action, Sport",
+        "price": "500 pkr",
+        "thumbnail": "M4.jpg"
+    },
+
+    {
+        "no": 5,
+        "title": "Inception",
+        "release-year": 2010,
+        "genre": "Action, Adventure, Sci-Fi",
+        "price": "500 pkr",
+        "thumbnail": "M5.jpg"
+    },
+
+    {
+        "no": 6,
+        "title": "The Matrix",
+        "release-year": 1999,
+        "genre": "Action, Sci-Fi",
+        "price": "500 pkr",
+        "thumbnail": "M6.jpg"
+    },
+
+    {
+        "no": 7,
+        "title": "Interstellar",
+        "release-year": 2014,
+        "genre": "Adventure, Drama, Sci-Fi",
+        "price": "500 pkr",
+        "thumbnail": "M7.jpg"
+    },
+
+    {
+        "no": 8,
+        "title": "The Dark Knight",
+        "release-year": 2008,
+        "genre": "Action, Crime, Drama",
+        "price": "500 pkr",
+        "thumbnail": "M8.jpg"
+    },
+
+    {
+        "no": 9,
+        "title": "Fight Club",
+        "release-year": 1999,
+        "genre": "Crime, Drama, Thriller",
+        "price": "500 pkr",
+        "thumbnail": "M9.jpg"
+    },
+
+    {
+        "no": 10,
+        "title": "Pulp Fiction",
+        "release-year": 1994,
+        "genre": "Crime, Drama",
+        "price": "500 pkr",
+        "thumbnail": "M10.jpg"
+    },
+
+    {
+        "no": 11,
+        "title": "Forrest Gump",
+        "release-year": 1994,
+        "genre": "Drama, Romance",
+        "price": "500 pkr",
+        "thumbnail": "M11.jpg"
+    },
+
+    {
+        "no": 12,
+        "title": "The Godfather",
+        "release-year": 1972,
+        "genre": "Crime, Drama",
+        "price": "500 pkr",
+        "thumbnail": "M12.jpg"
+    }
+
+
+
+]

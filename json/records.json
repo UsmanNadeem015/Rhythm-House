@@ -1,0 +1,123 @@
+[
+ {
+   "no" : 1,
+   "title": "Channel Orange",
+   "artist": "Frank Ocean",
+   "release-year": 2025,
+   "catagory": "Contemporary R&B. Soul",
+   "price": "500 pkr",
+   "thumbnail": "1.jpg"
+    
+ },
+
+ {
+   "no" : 2,
+   "title": "Alfredo II",
+   "artist": "Freddie Gibbs & Alchemist",
+   "release-year": 2025,
+   "catagory": "Hip Hop",
+   "price": "500 pkr",
+   "thumbnail": "2.jpg"
+ },
+
+ {
+   "no" : 3,
+   "title": "No More Tears",
+   "artist": "Ozzy Osbourne",
+   "release-year": 2021,
+   "catagory": "Heavy' Metal. Hard Rock",
+   "price": "500 pkr",
+   "thumbnail": "3.jpg"
+ },
+ 
+ {
+   "no" : 4,
+   "title": "End Of Summer",
+   "artist": "Tame Impala",
+   "release-year": 2021,
+   "catagory": "House, Tecnno",
+   "price": "500 pkr",
+   "thumbnail": "4.jpg"
+ },
+
+ {
+   "no" : 5,
+   "title": "Fantasies & Delusions",
+   "artist": "Billy Joel, Richard J0",
+   "release-year": 2001,
+   "catagory": "Contemporary",
+   "price": "500 pkr",
+   "thumbnail": "5.jpg"
+ },
+
+ {
+   "no" : 6,
+   "title": "Seychelles",
+   "artist": "Masayoshi Takanaka",
+   "release-year": 2024,
+   "catagory": "Jazz, Laon, Fusion",
+   "price": "500 pkr",
+   "thumbnail": "6.jpg"
+ },
+
+ {
+   "no" : 7,
+   "title": "Blizzard Of Ozz",
+   "artist": "Ozzy Osbourne",
+   "release-year": 2011,
+   "catagory": "Heavy Metal",
+   "price": "500 pkr",
+   "thumbnail": "7.jpeg"
+ },
+
+  {
+   "no" : 8,
+   "title": "Lost In Flower",
+   "artist": "F7",
+   "release-year": 2025,
+   "catagory": "Techno. Dub Techno",
+   "price": "500 pkr",
+   "thumbnail": "8.jpg"
+ },
+
+  {
+   "no" : 9,
+   "title": "Blue Lines",
+   "artist": "Massive Attack",
+   "release-year": 2016,
+   "catagory": "Electronic, Trip Hop",
+   "price": "500 pkr",
+   "thumbnail": "9.jpg"
+ },
+
+  {
+   "no" : 10,
+   "title": "T-Dreams",
+   "artist": "State Of sound",
+   "release-year": 1995,
+   "catagory": "House",
+   "price": "500 pkr",
+   "thumbnail": "10.jpg"
+ },
+
+  {
+   "no" : 11,
+   "title": "Let God Sort Em Out",
+   "artist": "Clipse, Pusha T & Malice",
+   "release-year": 2025,
+   "catagory": "Hip Hop",
+   "price": "500 pkr",
+   "thumbnail": "11.jpg"
+ },
+
+  {
+   "no" : 12,
+   "title": "Random Access Memories",
+   "artist": "Daft Punk",
+   "release-year": 2013,
+   "catagory": "Electronic, pop",
+   "price": "500 pkr",
+   "thumbnail": "12.jpeg"
+ }
+
+]

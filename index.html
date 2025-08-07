@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rhythm House</title>
 
+    <!-- AOS -->
+     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- BootStrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
     <!-- Remix Icons -->
@@ -42,13 +44,12 @@
     <i class="ri-album-fill icon-btn" id="menu-toggle"></i>
   </div>
 </nav> -->
-<nav id="navBar"></nav>  
+<nav id="navHome"></nav>  
 
 <!-- Navbar End -->
 
 <!-- Slider Start-->
- 
-<!-- Bootstrap Carousel -->
+
 <div id="rhythmCarousel" class="carousel slide" data-bs-ride="carousel">
   <div class="carousel-inner">
 
@@ -59,31 +60,31 @@
         <div class="desktop-caption">
           <h5 class="text-white">Top Rock Albums of the 70s</h5>
           <p class="text-white">Now available on CD & Tape!</p>
-          <a href="records.html" class="btn btn-warning">Browse Albums</a>
+          <a href="records.html" class="btn btn-success">Browse Albums</a>
         </div>
       </div>
       <div class="carousel-caption d-block d-md-none text-start" style="left: 5%; right: auto;">
         <div class="mobile-caption">
           <h6 class="text-white">Top Rock Albums</h6>
-          <a href="records.html" class="btn btn-warning btn-sm">Browse</a>
+          <a href="records.html" class="btn btn-success btn-sm">Browse</a>
         </div>
       </div>
     </div>
 
     <!-- Slide 2 -->
     <div class="carousel-item">
-      <img src="./images/Slider/banner2.png" class="d-block w-100 slider-img" alt="Kids Music" />
+      <img src="./images/Slider/banner2.jpg" class="d-block w-100 slider-img" alt="Kids Music" />
       <div class="carousel-caption d-none d-md-block text-start" style="left: 5%; right: auto;">
         <div class="desktop-caption">
-          <h5 class="text-white">Poems & Songs for Kids</h5>
+          <h5 class="text-white">Step into the aisle of cinematic gems</h5>
           <p class="text-white">CDs and DVDs in stock now!</p>
-          <a href="records.html" class="btn btn-warning">Explore Kids Collection</a>
+          <a href="movies.html" class="btn btn-success">Start Browsing</a>
         </div>
       </div>
       <div class="carousel-caption d-block d-md-none text-start" style="left: 5%; right: auto;">
         <div class="mobile-caption">
-          <h6 class="text-white">Kids Songs & Poems</h6>
-          <a href="records.html" class="btn btn-warning btn-sm">Explore</a>
+          <h6 class="text-white">Cinematic Gems</h6>
+          <a href="movies.html" class="btn btn-success btn-sm">Explore</a>
         </div>
       </div>
     </div>
@@ -95,13 +96,13 @@
         <div class="desktop-caption">
           <h5 class="text-white">Get the Latest Pop Hits</h5>
           <p class="text-white">Fresh stock every week!</p>
-          <a href="records.html" class="btn btn-warning">Check New Arrivals</a>
+          <a href="records.html" class="btn btn-success">Check New Arrivals</a>
         </div>
       </div>
       <div class="carousel-caption d-block d-md-none text-start" style="left: 5%; right: auto;">
         <div class="mobile-caption">
           <h6 class="text-white">Latest Pop Hits</h6>
-          <a href="records.html" class="btn btn-warning btn-sm">Check</a>
+          <a href="records.html" class="btn btn-success btn-sm">Check</a>
         </div>
       </div>
     </div>
@@ -119,19 +120,18 @@
   </button>
 </div>
 
-
 <!-- Slider End-->
 
 <!-- Products Start  -->
  <main>
   <!-- Records -->
-  <div class="products-heading">
+  <div data-aos="fade-up" class="products-heading">
     <h1>Records</h1>
     <div class="green-line"></div>
   </div>
 
   <div class="products-cards-main">
-    <div class="products-cards-sub">
+    <div class="products-cards-sub" data-aos="fade-right">
     <ul>
     <li><img src="./images/Cards/1.jpg" alt=""></li>
      <li class="green-txt"><b>Channel Orange</b></li>
@@ -143,7 +143,7 @@
     </ul>
     </div>
 
-    <div class="products-cards-sub">
+    <div class="products-cards-sub" data-aos="fade-right">
     <ul>
     <li><img src="./images/Cards/2.jpg" alt=""></li>
      <li class="green-txt"><b>Alfredo II</b></li>
@@ -155,7 +155,7 @@
     </ul>
     </div>
 
-    <div class="products-cards-sub">
+    <div class="products-cards-sub" data-aos="fade-left">
     <ul>
     <li><img src="./images/Cards/3.jpg" alt=""></li>
      <li class="green-txt"><b>No More Tears</b></li>
@@ -167,7 +167,7 @@
     </ul>
     </div>
 
-    <div class="products-cards-sub">
+    <div class="products-cards-sub" data-aos="fade-left">
      <ul>
      <li><img src="./images/Cards/4.jpg" alt=""></li>
      <li class="green-txt"><b>End Of Summer</b></li>
@@ -180,17 +180,19 @@
     </div>    
   </div>
   <div class="products-vm-btn">
-    <a href="./records.html"><Button>View More <i class="ri-arrow-right-line"></i></Button></a>
+    <a href="./records.html"><Button data-aos="fade-up">View More <i class="ri-arrow-right-line"></i></Button></a>
   </div>
+ 
   <br><br><br>
+  
   <!-- Movies -->
-  <div class="products-heading">
+  <div class="products-heading" data-aos="fade-up">
     <h1>Movies</h1>
     <div class="green-line"></div>
   </div>
 
   <div class="products-cards-main">
-    <div class="products-cards-sub">
+    <div class="products-cards-sub" data-aos="fade-right">
     <ul>
      <li><img src="./images/Cards/M1.jpg" alt=""></li>
      <li class="green-txt"><b>Demon Slayer</b></li>
@@ -201,7 +203,7 @@
     </ul>
     </div>
 
-    <div class="products-cards-sub">
+    <div class="products-cards-sub" data-aos="fade-right">
     <ul>
     <li><img src="./images/Cards/M2.jpg" alt=""></li>
      <li class="green-txt"><b>Fantastic Four: First Steps</b></li>
@@ -212,7 +214,7 @@
     </ul>
     </div>
 
-    <div class="products-cards-sub">
+    <div class="products-cards-sub" data-aos="fade-left">
     <ul>
     <li><img src="./images/Cards/M3.jpg" alt=""></li>
      <li class="green-txt"><b>The Naked gun</b></li>
@@ -223,7 +225,7 @@
     </ul>
     </div>
 
-    <div class="products-cards-sub">
+    <div class="products-cards-sub" data-aos="fade-left">
      <ul>
      <li><img src="./images/Cards/M4.jpg" alt=""></li>
      <li class="green-txt"><b>F1</b></li>
@@ -235,7 +237,7 @@
     </div>    
   </div>
   <div class="products-vm-btn">
-        <a href="./movies.html"><Button>View More <i class="ri-arrow-right-line"></i></Button></a>
+        <a href="./movies.html"><Button data-aos="fade-up">View More <i class="ri-arrow-right-line"></i></Button></a>
   </div>
   
  </main>
@@ -247,13 +249,15 @@
     <section>
         <div class="event-main">
             <div class="event-LE-text">
-                <h2>Live Events</h2>
+                <h2 data-aos="fade-up">Live Events</h2>
             </div>
             <div class="event-imgs">
-                <div><img src="./images/Event/event-left.jpg" alt="Concerts">
+                <div data-aos="fade-right">
+                <img src="./images/Event/event-left.jpg" alt="Concerts">
                 <button class="event-btn-left">Concerts</button>
                 </div>
-                <div><img src="./images/Event/event-right.jpg" alt="Screenings">
+                <div data-aos="fade-left">
+                <img src="./images/Event/event-right.jpg" alt="Screenings">
                 <button class="event-btn-right">Screenings</button>
                 </div>
             </div>
@@ -271,7 +275,7 @@
   <div class="membership-sub">
   
     <!-- Basic Tier -->
-    <div class="membership-cards">
+    <div class="membership-cards" data-aos="fade-right">
       <p><b>RhythmHouse Basic</b></p>
       <ul>
         <li>✅ Access to online store (records + movies)</li>
@@ -284,7 +288,7 @@
     </div>
     
     <!-- Plus Tier -->
-    <div class="membership-cards">
+    <div class="membership-cards" data-aos="fade-up">
       <p><b>RhythmHouse Plus</b></p>
       <ul>
         <li>✅ All Basic tier benefits</li>
@@ -297,7 +301,7 @@
     </div>
     
     <!-- Premium Tier -->
-    <div class="membership-cards">
+    <div class="membership-cards" data-aos="fade-left">
       <p><b>RhythmHouse Premium</b></p>
       <ul>
         <li>✅ All Plus tier benefits</li>
@@ -312,7 +316,8 @@
   </div>
 </div>
 
-
+<!-- AOS  -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <!-- BootStrap JS -->
  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
 <!-- Custom JS -->

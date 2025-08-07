@@ -348,7 +348,7 @@
 /* SLider Start */
 .slider-img {
   width: 100%;
-  height: auto;
+  height: 600px;
   object-fit: cover;
 }
 
