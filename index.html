@@ -16,8 +16,9 @@
      <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-  <!-- Navbar Start -->
-<!-- <nav class="navbar">
+
+<!-- Navbar Start -->
+<nav class="navbar">
   <div class="navbar-logo">
     <img src="./images/nav-logo.jpeg" alt="" />
   </div>
@@ -25,27 +26,16 @@
   <div class="navbar-left">
     <div class="navbar-center" id="nav-links">
       <ul class="navbar-links">
-        <li><a href="#">Movies</a></li>
-        <li><a href="#">Band</a></li>
-        <li><a href="#">Radio</a></li>
-        <li><a href="#">My Music</a></li>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="records.html">Records</a></li>
+        <li><a href="movies.html">Movies</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><i class="ri-album-fill icon-btn" id="menu-toggle"></i></li>
       </ul>
     </div>
+    
   </div>
-
-  <div class="navbar-right">
-    <div class="search-box">
-      <i class="fas fa-search"></i>
-      <input
-        type="search"
-        placeholder="Search songs, artists, albums..."
-      />
-    </div>
-    <i class="ri-album-fill icon-btn" id="menu-toggle"></i>
-  </div>
-</nav> -->
-<nav id="navHome"></nav>  
-
+</nav>  
 <!-- Navbar End -->
 
 <!-- Slider Start-->
@@ -251,6 +241,7 @@
             <div class="event-LE-text">
                 <h2 data-aos="fade-up">Live Events</h2>
             </div>
+            <div class="green-line" data-aos="fade-up"></div>
             <div class="event-imgs">
                 <div data-aos="fade-right">
                 <img src="./images/Event/event-left.jpg" alt="Concerts">
@@ -267,7 +258,7 @@
     
 <!-- membership start  -->
 <div class="membership-main">
-  <div class="products-heading">
+  <div class="products-heading" data-aos="fade-up">
     <h1>Membership</h1>    
     <div class="green-line"></div>
   </div>
@@ -315,12 +306,105 @@
 
   </div>
 </div>
+<!-- membership end  -->
+
+<!-- About start -->
+<section class="about-main">
+  <div class="products-heading" data-aos="fade-up">
+    <h1 style="padding-top: 50px;">About</h1>    
+    <div class="green-line"></div>
+  </div>
+  <div class="container col-xxl-8 px-4 py-5">
+    <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+      <div class="col-10 col-sm-8 col-lg-6">
+        <img src="./images/about.png"
+             class="d-block mx-lg-auto img-fluid"
+             alt="Hero Visual"
+             width="500" height="500" data-aos="fade-left">
+      </div>
+      <div class="col-lg-6" data-aos="fade-right">
+        <h1 class="display-5 fw-bold lh-1 mb-3">Welcome to Rhythm House</h1>
+        <p class="lead mb-4">
+          At Rhythm House, we believe music is more than just sound — it’s an experience, a memory, and a feeling that connects generations.
+          From timeless vinyl records to captivating DVDs and movie collectibles, our collection is a journey through decades of art and culture.
+          Whether you’re a passionate audiophile, a film lover, or simply exploring for the first time, we’re here to bring nostalgia and quality into your hands.
+        </p>
+        <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+          <a href="records.html" class="btn custom-btn btn-lg px-4 me-md-2">Browse Records</a>
+          <a href="movies.html" class="btn custom-btn-outline btn-lg px-4">Explore Movies</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- About End -->
+
+<!-- Sales start -->
+<section class="about-main">
+  <div class="products-heading" data-aos="fade-up">
+    <h1>Sales</h1>    
+    <div class="green-line"></div>
+  </div>
+  <div class="container col-xxl-8 px-4 py-5">
+    <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+      <div class="col-10 col-sm-8 col-lg-6">
+        <canvas id="salesChart" data-aos="fade-left"></canvas>
+      </div>
+      <div class="col-lg-6" data-aos="fade-right">
+        <h1 class="display-5 fw-bold lh-1 mb-3">Sales Overview</h1>
+        <p class="lead mb-4">
+          A quick look at our Records and Movies sales trends over the year.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Sales end  -->
+
+<!-- Contact start  -->
+<div class="contact-section">
+
+<div class="products-heading" data-aos="fade-up">
+    <h1>Contact Us</h1>    
+    <div class="green-line"></div>
+</div>
+<br>
+<form class="contact-sub">
+  <label data-aos="fade-up"><b>Full Name</b></label>
+  <input type="text" required data-aos="fade-up">
+
+  <label data-aos="fade-up"><b>Email Address</b></label>
+  <input type="email" required data-aos="fade-up">
+
+  <label data-aos="fade-up"><b>Your Message</b></label>
+  <textarea required data-aos="fade-up"></textarea>
+  <button id="contact-submit" data-aos="fade-up">Submit</button>
+</form>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 <!-- AOS  -->
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <!-- BootStrap JS -->
  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
-<!-- Custom JS -->
+<!-- Chart.js -->
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+ <!-- Custom JS -->
  <script type="module" src="./JS/script.js"></script>
 </body>
 </html>
