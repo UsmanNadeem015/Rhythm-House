@@ -4,6 +4,9 @@ Aptech semester end project
 git add .
 git commit -m "Your descriptive message"
 git push origin main
+
+
+
 ✅ 
 ❌
 <!-- Requirements -->
@@ -36,6 +39,6 @@ git push origin main
 
 ✅ Site should be able to provide brief introduction/history about the shop under AboutUs page
 
-❌ The location of the shop under Contact-Us page.
+✅ The location of the shop under Contact-Us page.
 
 Besides the above requirements, the site should have look and feel as per the industry standards

@@ -1,11 +1,3 @@
-// Nav Bar
-// import navHome from "./navHome.js"
-// document.getElementById("navHome").innerHTML = navHome;
-
-// Toggle responsive menu
-// document.getElementById("menu-toggle").addEventListener("click", function () {
-//     document.getElementById("nav-links").classList.toggle("active");
-//   });
 
 const menuToggle = document.getElementById("menu-toggle");
 const menuContent = document.getElementById("menu-content");

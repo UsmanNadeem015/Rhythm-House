@@ -1,6 +1,9 @@
 // Nav Bar
 import navBar from "./nav.js";
 document.getElementById("navBar").innerHTML = navBar;
+//Footer
+import foot from "./footer.js";
+document.getElementById("foot").innerHTML = foot
 
 // Toggle menu
 document.getElementById("menu-toggle").addEventListener("click", function () {

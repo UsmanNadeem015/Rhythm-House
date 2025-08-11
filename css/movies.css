@@ -457,3 +457,60 @@ text-align: center;
     text-overflow: ellipsis;
     white-space: nowrap;
 }
+
+/* footer start  */
+.footer-main{
+  display: flex;
+  justify-content: space-around;
+  padding: 15px;
+  background-color: #181818;
+  color: #1db954;
+  width: 100%;
+  border-top: 1px solid #1db954;
+  box-shadow: 0 -5px 8px #1db954;
+}
+
+.footer-left{
+  width: 500px;
+}
+.footer-left p{
+  color: white;
+}
+
+.footer-right{
+  display: flex;
+}
+.footer-right ul{
+  list-style-type: none;
+}
+
+.footer-right a{
+text-decoration: none;
+cursor: pointer;
+color: white;
+}
+
+.footer-right a:hover{
+  color: #1db954;
+}
+
+.social-icons{
+  font-size: 30px;
+}
+
+#facebook:hover{
+  color: #0866FF;
+}
+
+#whatsapp:hover{
+  color: #26D569;
+}
+
+#instagram:hover{
+  color: #FDBF56
+ }
+
+#youtube:hover{
+  color: #FF0033;
+ }
+/* Footer End */
