@@ -33,10 +33,32 @@
   </head>
   <body>
     <!-- Navbar Start -->
-    <nav id="navHome"></nav>
+    <nav class="navbar" style="box-shadow: 0 4px 8px #1db954;">
+  <div class="navbar-logo">
+    <img src="./images/nav-logo.jpeg" alt="" />
+  </div>
+
+  <!-- Middle links -->
+  <div class="navbar-center" id="nav-links">
+    <ul class="navbar-links">
+      <li><a href="./index.html">Home</a></li>
+      <li><a href="./records.html">Records</a></li>
+      <li><a href="./movies.html">Movies</a></li>
+      <li><a href="./bookmag.html">Books & Magzines</a></li>
+    </ul>
+  </div>
+
+  <!-- Menu icon -->
+  <div class="navbar-right">
+    <i class="ri-album-fill icon-btn" id="menu-toggle"></i>
+  </div>
+
+  <!-- Dropdown menu (desktop) / Mobile menu -->
+  <div class="menu-content" id="menu-content"><i class="ri-album-fill"></i></div>
+    </nav>
     <!-- Navbar End -->
 
-    <main class="about-main">
+    <main class="about-main" style="padding-top: 30px;">
       <div class="products-heading" data-aos="fade-up">
         <h1>About</h1>
         <div class="green-line"></div>
@@ -97,17 +119,16 @@
           <div class="col-10 col-sm-8 col-lg-6" data-aos="fade-left">
             <img
               src="./images/about-history.png"
-              class="d-block mx-lg-auto rounded shadow"
+              class="d-block mx-lg-auto rounded shadow img-history"
               alt="Rhythm House History"
-              width="500"
-              height="500"
-              class="img-history"
+
             />
           </div>
         </div>
       </div>
     </section>
 
+    <footer id="foot"></footer>
     <!-- AOS  -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <!-- BootStrap JS -->
@@ -117,6 +138,6 @@
       crossorigin="anonymous"
     ></script>
     <!-- Custom JS -->
-    <script type="module" src="./JS/script.js"></script>
+    <script type="module" src="./JS/about.js"></script>
   </body>
 </html>

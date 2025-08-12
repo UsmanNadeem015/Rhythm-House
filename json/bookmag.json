@@ -1,0 +1,207 @@
+[
+    {
+        "no": 1,
+        "type": "book",
+        "title": "Unicorn Academy",
+        "release-year": 2025,
+        "genre": "Fantasy",
+        "price": "1,975 pkr",
+        "thumbnail": "b1.jpg"
+    },
+
+    {
+        "no": 2,
+        "type": "book",
+        "title": "Skandar and the Chaos Trials",
+        "release-year": 2024,
+        "genre": "Fantasy",
+        "price": "2,495 pkr",
+        "thumbnail": "b2.jpg"
+
+    },
+
+    {
+        "no": 3,
+        "type": "book",
+        "title": "Misinterpretation",
+        "release-year": 2023,
+        "genre": "Contemporary Fiction",
+        "price": "2,605 pkr",
+        "thumbnail": "b3.jpg"
+
+    },
+
+    {
+        "no": 4,
+        "type": "book",
+        "title": "The Rest of Our Lives",
+        "release-year": 2022,
+        "genre": "Contemporary Fiction",
+        "price": "3,955 pkr",
+        "thumbnail": "b4.jpg"
+    },
+
+    {
+        "no": 5,
+        "type": "book",
+        "title": "The Loneliness of Sonia and Sunny",
+        "release-year": 2021,
+        "genre": "Rommance",
+        "price": "3,685 pkr",
+        "thumbnail": "b5.jpg"
+    },
+
+    {
+        "no": 6,
+        "type": "book",
+        "title": "Flashlight",
+        "release-year": 2020,
+        "genre": "Coming-of-age story",
+        "price": "3,685 pkr",
+        "thumbnail": "b6.jpg"
+    },
+
+    {
+        "no": 7,
+        "type": "book",
+        "title": "One Boat",
+        "release-year": 2019,
+        "genre": "Psychological Fiction",
+        "price": "3,055 pkr",
+        "thumbnail": "b7.jpg"
+    },
+
+    {
+        "no": 8,
+        "type": "book",
+        "title": "Love Forms",
+        "release-year": 2018,
+        "genre": "Psychological Fiction",
+        "price": "3,505 pkr",
+        "thumbnail": "b8.jpg"
+    },
+
+    {
+        "no": 9,
+        "type": "book",
+        "title": "Seascraper",
+        "release-year": 2017,
+        "genre": "Historical Fiction",
+        "price": "3,505 pkr",
+        "thumbnail": "b9.jpg"
+    },
+    
+    {
+        "no": 10,
+        "type": "book",
+        "title": "Endlings",
+        "release-year": 2016,
+        "genre": "Absurdist fiction",
+        "price": "3,685 pkr",
+        "thumbnail": "b10.jpg"
+    },
+
+        {
+        "no": 11,
+        "type": "mag",
+        "title": "The Economist",
+        "release-year": 2025,
+        "genre": "Business & Finance, Current Affairs",
+        "price": "2100 pkr",
+        "thumbnail": "mag1.jpg"
+
+    },
+
+    {
+        "no": 12,
+        "type": "mag",
+        "title": "Foreign Affairs",
+        "release-year": 2024,
+        "genre": "Current Affairs",
+        "price": "4,995 pkr",
+        "thumbnail": "mag2.jpg"
+
+    },
+
+    {
+        "no": 13,
+        "type": "mag",
+        "title": "Prevention",
+        "release-year": 2023,
+        "genre": "Health & Fitness",
+        "price": "2,295 pkr",
+        "thumbnail": "mag3.jpg"
+
+    },
+
+    {
+        "no": 14,
+        "type": "mag",
+        "title": "BBC Science Focus",
+        "release-year": 2022,
+        "genre": "Science & Technology",
+        "price": "3,595 pkr",
+        "thumbnail": "mag4.jpg"
+    },
+
+    {
+        "no": 15,
+        "type": "mag",
+        "title": "The World of Interiors",
+        "release-year": 2021,
+        "genre": "Architecture & Interiors",
+        "price": "3,595 pkr",
+        "thumbnail": "mag5.jpg"
+    },
+
+    {
+        "no": 16,
+        "type": "mag",
+        "title": "T3 Awards",
+        "release-year": 2020,
+        "genre": "Science & Technology",
+        "price": "3,595 pkr",
+        "thumbnail": "mag6.jpg"
+    },
+
+    {
+        "no": 17,
+        "type": "mag",
+        "title": "The Cricketer",
+        "release-year": 2019,
+        "genre": "Sports",
+        "price": "3,595 pkr",
+        "thumbnail": "mag7.jpg"
+    },
+
+    {
+        "no": 18,
+        "type": "mag",
+        "title": "Entrepreneur",
+        "release-year": 2018,
+        "genre": "Business & Finance",
+        "price": "3,395 pkr",
+        "thumbnail": "mag8.jpg"
+    },
+    
+    {
+        "no": 19,
+        "type": "mag",
+        "title": "ELLE UK",
+        "release-year": 2017,
+        "genre": "Fashion & Beauty, Women",
+        "price": "3,595 pkr",
+        "thumbnail": "mag9.jpg"
+    },
+    
+    {
+        "no": 20,
+        "type": "mag",
+        "title": "Vogue US",
+        "release-year": 2016,
+        "genre": "Fashion & Beauty, Women",
+        "price": "3,595 pkr",
+        "thumbnail": "mag10.jpg"
+    }
+
+]

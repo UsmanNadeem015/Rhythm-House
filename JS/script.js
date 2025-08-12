@@ -20,9 +20,10 @@ function updateMenuItems() {
   } else {
     menuContent.innerHTML = `
       <ul>
-        <li><a href="#">Live Events</a></li>
-        <li><a href="#">Membership</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><a href="events.html">Live Events</a></li>
+        <li><a href="membership.html">Membership</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
       </ul>
     `;
   }
