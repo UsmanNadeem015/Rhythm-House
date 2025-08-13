@@ -573,6 +573,20 @@ text-align: center;
   box-shadow: 0 4px 8px #1db954;
 }
 
+.event-vm-btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;  
+}
+.event-vm-btn button{
+    padding: 5px;
+    border-radius: 50px;
+    width: 150px;
+    color: #1db954;
+    border: 1px solid #1db954;
+    box-shadow: 0 4px 8px #1db954; 
+    transition: transform 0.2s ease;
+}
 
 /* Event End  */
 
