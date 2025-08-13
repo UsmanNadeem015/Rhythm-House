@@ -1,0 +1,104 @@
+[
+    {
+        "no": 1,
+        "title": "Annural Khalid Live",
+        "performer": "Annural Khalid",
+        "date": "16 Aug 2025",
+        "timing": "07:30 pm onwards",
+        "location": "The Hill Joint",
+        "entryfee": "Rs 2000",
+        "thumbnail": "e1.jpg"
+    },
+    {
+        "no": 2,
+        "title": "Havi Live",
+        "performer": "Havi",
+        "date": "30 Aug 2025",
+        "timing": "06:30 pm onwards",
+        "location": "Alhamra Hall 1 Mall Road",
+        "entryfee": "Rs 3,500",
+        "thumbnail": "e2.png"
+    },
+    {
+        "no": 3,
+        "title": "Azaadi Music Festival",
+        "performer": "Asim Azhar, Khudgharz",
+        "date": "30 Aug 2025 - 31 Aug 2025",
+        "timing": "06:00 pm - 11:59 pm",
+        "location": "Expo Centre Karachi",
+        "entryfee": "Rs 1,000",
+        "thumbnail": "e3.jpeg"
+    },
+
+    {
+        "no": 4,
+        "title": "Offstage",
+        "performer": "Nimra Rafiq, Arsalan Bukhari",
+        "date": "16 Aug 2025",
+        "timing": "08:00 pm - 10:00 pm",
+        "location": "Reach Studios, Islamabad",
+        "entryfee": "Rs 1,000",
+        "thumbnail": "e4.jpeg"
+    },
+    {
+        "no": 5,
+        "title": "Kohr at Dot",
+        "performer": "Kohr The Band",
+        "date": "17 Aug 2025",
+        "timing": "07:00 pm onwards",
+        "location": "Dot cafe, DHA Phase 4, Lahore",
+        "entryfee": "Rs 2,000",
+        "thumbnail": "e5.jpeg"
+    },
+    {
+        "no": 6,
+        "title": "Andaaz e Tahir",
+        "performer": "Tahir Abbas",
+        "date": "21 Aug 2025",
+        "timing": "07:00 pm onwards",
+        "location": "Ali Auditorium, Lahore",
+        "entryfee": "Rs 2,000",
+        "thumbnail": "e6.png"
+    },
+    {
+        "no": 7,
+        "title": "Naqsh e Goonj",
+        "performer": "Bayaan The Band",
+        "date": "24 Aug 2025",
+        "timing": "07:00 pm onwards",
+        "location": "Hall1,Alhamra Arts Council Mall Road Lahore",
+        "entryfee": "Rs 3,000",
+        "thumbnail": "e7.png"
+    },
+    {
+      "no": 8,
+        "title": "Noori",
+        "performer": "Ali Noor",
+        "date": "30 Aug 2025",
+        "timing": "08:00 pm - 11:59 pm",
+        "location": "Arts Council, Karachi",
+        "entryfee": "Rs 3,000",
+        "thumbnail": "e8.jpg"  
+    },
+    {
+      "no": 9,
+        "title": "Sama-e-Ishq",
+        "performer": "Javed Bashir",
+        "date": "29 Aug 2025",
+        "timing": "07:00 pm - 10:00 pm",
+        "location": "Arts Council, Karachi",
+        "entryfee": "Rs 3,000",
+        "thumbnail": "e9.jpg"   
+    },
+
+        {
+       "no": 10,
+        "title": "Vibe 2025",
+        "performer": "Ali Tariq",
+        "date": "30 Aug 2025",
+        "timing": "07:00 pm onwards",
+        "location": "Arts Council, Karachi",
+        "entryfee": "Rs 3,000",
+        "thumbnail": "e10.jpeg"  
+    }    
+]

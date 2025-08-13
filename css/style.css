@@ -554,23 +554,29 @@ text-align: center;
   align-items: center;
 }
 
-.img-left{
-  height: 256px;
-  width: 500px;
-  margin-top: 50px;
-  border-radius: 20px;
-  background-image:url(/images/Event/event-left.jpeg);
-  box-shadow: 0 4px 8px #1db954;
-  
+.event-imgs .card{
+  margin-top: 30px;
+  color: #1db954 !important;
+  border: 2px solid #1db954 !important;
+  border-radius: 20px !important;
+  overflow: hidden;
 }
 
-.img-right{
-  height: 256px;
-  width: 500px;
-  margin-top: 50px;
-  background-image:url(/images/Event/event-right.jpg);
+.event-imgs .btn{
+  color: #1db954 !important;
+  border: 1px solid #1db954 !important;
+  width: 100%;
   border-radius: 20px;
-  box-shadow: 0 4px 8px #1db954;
+}
+
+.event-imgs .btn:hover{
+  color: #181818 !important;
+  background-color: #1db954;
+}
+
+.price-btn{
+  display: flex;
+  justify-content: center;
 }
 
 .event-vm-btn{
