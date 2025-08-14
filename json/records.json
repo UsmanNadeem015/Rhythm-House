@@ -4,7 +4,7 @@
    "title": "Channel Orange",
    "artist": "Frank Ocean",
    "release-year": 2025,
-   "catagory": "Contemporary R&B. Soul",
+   "catagory": "Contemporary",
    "price": "Rs 1000",
    "thumbnail": "1.jpg"
     
@@ -25,7 +25,7 @@
    "title": "No More Tears",
    "artist": "Ozzy Osbourne",
    "release-year": 2021,
-   "catagory": "Heavy' Metal. Hard Rock",
+   "catagory": "Heavy Metal",
    "price": "Rs 1300",
    "thumbnail": "3.jpg"
  },
@@ -35,7 +35,7 @@
    "title": "End Of Summer",
    "artist": "Tame Impala",
    "release-year": 2021,
-   "catagory": "House, Tecnno",
+   "catagory": "House",
    "price": "Rs 1200",
    "thumbnail": "4.jpg"
  },
