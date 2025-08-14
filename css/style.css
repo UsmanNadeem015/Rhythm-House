@@ -552,9 +552,11 @@ text-align: center;
   display: flex;
   justify-content: space-around;
   align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
 }
 
-.event-imgs .card{
+.card{
   margin-top: 30px;
   color: #1db954 !important;
   border: 2px solid #1db954 !important;
@@ -562,14 +564,14 @@ text-align: center;
   overflow: hidden;
 }
 
-.event-imgs .btn{
+.btn{
   color: #1db954 !important;
   border: 1px solid #1db954 !important;
   width: 100%;
   border-radius: 20px;
 }
 
-.event-imgs .btn:hover{
+.btn:hover{
   color: #181818 !important;
   background-color: #1db954;
 }
@@ -717,50 +719,9 @@ text-align: center;
   }
 }
 
-
 /* About end */
 
 /* Contact Start */
-/* .contact-section {
-  background-color: #181818;
-}
-
-.contact-sub {
-  border: 2px solid #1db954;
-  border-radius: 20px;
-  color: #1db954;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center; 
-  max-width: 500px; 
-  margin: 0 auto; 
-  gap: 10px;
-  padding: 20px;
-
-}
-.contact-sub label{
-  font-size: 25px;
-}
-.contact-sub input,
-.contact-sub textarea {
-  margin-bottom: 10px;
-  width: 400px;
-  padding: 8px;
-  border: 1px solid #1db954;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px #1db954;
-}
-
-.contact-sub button{
-  margin-top: 10px;
-  padding: 3px;
-  color: #1db954;
-  width: 400px;
-  border: 1px solid #1db954;
-  border-radius: 20px;
-  box-shadow: 0 4px 8px #1db954;
-} */
 .contact-section {
   background-color: #181818;
   padding: 20px;
@@ -848,7 +809,7 @@ text-align: center;
 
 @media (max-width: 768px) {
     .map{
-      height:400px;
+      height: 400px;
       width: 330px;
     }
 }

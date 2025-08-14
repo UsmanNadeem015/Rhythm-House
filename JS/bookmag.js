@@ -1,15 +1,46 @@
-// Nav Bar
-import navBar from "./nav.js";
-document.getElementById("navBar").innerHTML = navBar;
 //Footer
 import foot from "./footer.js";
 document.getElementById("foot").innerHTML = foot
 
-// Toggle menu
-document.getElementById("menu-toggle").addEventListener("click", function () {
-  document.getElementById("nav-links").classList.toggle("active");
+
+const menuToggle = document.getElementById("menu-toggle");
+const menuContent = document.getElementById("menu-content");
+
+function updateMenuItems() {
+// mobiile view
+  if (window.innerWidth <= 768) {
+    menuContent.innerHTML = `
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="records.html">Records</a></li>
+        <li><a href="movies.html">Movies</a></li>
+        <li><a href="#">Live Events</a></li>
+        <li><a href="#">Membership</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    `;
+// PC view
+  } else {
+    menuContent.innerHTML = `
+      <ul>
+        <li><a href="events.html">Live Events</a></li>
+        <li><a href="membership.html">Membership</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    `;
+  }
+}
+
+// Toggle menu open/close
+menuToggle.addEventListener("click", () => {
+  menuContent.classList.toggle("active");
 });
 
+// Update menu on load + resize
+updateMenuItems();
+window.addEventListener("resize", updateMenuItems);
 let allItems = [];
 
 // Fetch and render from bookmag.json

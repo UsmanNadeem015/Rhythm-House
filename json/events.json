@@ -66,7 +66,7 @@
         "performer": "Bayaan The Band",
         "date": "24 Aug 2025",
         "timing": "07:00 pm onwards",
-        "location": "Hall1,Alhamra Arts Council Mall Road Lahore",
+        "location": "Hall1,Alhamra Arts Council Mall Road",
         "entryfee": "Rs 3,000",
         "thumbnail": "e7.png"
     },
@@ -89,16 +89,5 @@
         "location": "Arts Council, Karachi",
         "entryfee": "Rs 3,000",
         "thumbnail": "e9.jpg"   
-    },
-
-        {
-       "no": 10,
-        "title": "Vibe 2025",
-        "performer": "Ali Tariq",
-        "date": "30 Aug 2025",
-        "timing": "07:00 pm onwards",
-        "location": "Arts Council, Karachi",
-        "entryfee": "Rs 3,000",
-        "thumbnail": "e10.jpeg"  
-    }    
+    } 
 ]

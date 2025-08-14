@@ -13,9 +13,9 @@ function updateMenuItems() {
         <li><a href="index.html">Home</a></li>
         <li><a href="records.html">Records</a></li>
         <li><a href="movies.html">Movies</a></li>
+        <li><a href="bookmag.html">Books & Magzines</a></li>
         <li><a href="#">Live Events</a></li>
         <li><a href="#">Membership</a></li>
-        <li><a href="about.html">About</a></li>
         <li><a href="#">Contact</a></li>
       </ul>
     `;

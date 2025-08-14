@@ -1,18 +1,52 @@
-// Nav Bar
-import navBar from "./nav.js"
-document.getElementById("navBar").innerHTML = navBar;
-//Footer
+// Footer
 import foot from "./footer.js";
-document.getElementById("foot").innerHTML = foot
+document.getElementById("foot").innerHTML = foot;
 
-// Toggle responsive menu
-document.getElementById("menu-toggle").addEventListener("click", function () {
-  document.getElementById("nav-links").classList.toggle("active");
+// Navbar elements
+const menuToggle = document.getElementById("menu-toggle");
+const menuContent = document.getElementById("menu-content");
+
+// Update menu items based on screen size
+function updateMenuItems() {
+  if (window.innerWidth <= 768) {
+    // Mobile view
+    menuContent.innerHTML = `
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="records.html">Records</a></li>
+        <li><a href="movies.html">Movies</a></li>
+        <li><a href="bookmag.html">Books & Magazines</a></li>
+        <li><a href="events.html">Live Events</a></li>
+        <li><a href="membership.html">Membership</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    `;
+  } else {
+    // PC view
+    menuContent.innerHTML = `
+      <ul>
+        <li><a href="events.html">Live Events</a></li>
+        <li><a href="membership.html">Membership</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    `;
+  }
+}
+
+// Toggle menu visibility
+menuToggle.addEventListener("click", () => {
+  menuContent.classList.toggle("active");
 });
+
+// Load correct menu pc or mob
+updateMenuItems();
+window.addEventListener("resize", updateMenuItems);
 
 let allData = [];
 
-// Fetch and store full data
+// Fetch from json
 fetch("./json/records.json")
   .then(res => res.json())
   .then(data => {
@@ -49,7 +83,7 @@ function renderCards(data) {
   document.querySelector(".products-cards-main").innerHTML = output;
 }
 
-// Search bar
+// Search
 document.getElementById("searchBar").addEventListener("input", function () {
   const query = this.value.toLowerCase();
 
@@ -67,5 +101,3 @@ document.getElementById("searchBar").addEventListener("input", function () {
 
   renderCards(filtered);
 });
-
-
