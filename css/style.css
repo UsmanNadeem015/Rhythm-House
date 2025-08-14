@@ -419,6 +419,16 @@
  
 
 /* Products Start */
+.filter-records{
+color: #1db954;
+display: flex;
+}
+
+.filter-records select, option{
+  color: #1db954;
+} 
+
+
 .products-heading h1{
 color: #1db954;
 text-align: center;
