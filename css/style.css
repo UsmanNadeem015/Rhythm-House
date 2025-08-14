@@ -931,3 +931,15 @@ color: white;
   justify-content: center;
 
 }
+
+/* Discount page */
+
+.discounts-main{
+  color: #1db954;
+  padding-bottom: 20px;
+}
+
+.sub-heading{
+  text-align: center;
+  padding-top: 15px;
+}
