@@ -101,3 +101,16 @@ document.getElementById("searchBar").addEventListener("input", function () {
 
   renderCards(filtered);
 });
+
+
+// Filter
+document.getElementById("genreFilter").addEventListener("change", function () {
+  const selectedGenre = this.value;
+
+  if (!selectedGenre) {
+    renderCards(allData);
+  } else {
+    const filtered = allData.filter(item => item.catagory === selectedGenre);
+    renderCards(filtered);
+  }
+});

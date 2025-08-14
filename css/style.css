@@ -907,3 +907,27 @@ color: white;
 }
 
 /* Footer End */
+
+
+/* Filter Styling */
+#genreFilter {
+  min-width: 220px;
+  padding: 8px 12px;
+  border-radius: 6px;
+  border: 1px solid #1db954 !important;
+  font-size: 0.95rem;
+  background-color: #181818;
+  color: #1db954;
+
+  option {
+    background-color: #181818; 
+    color: #1db954;
+}
+}
+
+.filter-records{
+  padding-top: 30px;
+  display: flex;
+  justify-content: center;
+
+}

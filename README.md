@@ -27,7 +27,7 @@ git push origin main
 
 ❌ Display the various offers/contests by the shop
 
-❌ Display the details (performer, time, duration, entry fee etc) of live shows
+✅ Display the details (performer, time, duration, entry fee etc) of live shows
 
 ✅ Give information about membership.
 
@@ -35,7 +35,7 @@ git push origin main
 
 ✅ Display the price list of the various items available in the shop i.e. (CDs, DVDs, Tapes, Books, Magazines)
 
-❌ Display the schedule and details of upcoming live shows.
+✅ Display the schedule and details of upcoming live shows.
 
 ✅ Site should be able to provide brief introduction/history about the shop under AboutUs page
 

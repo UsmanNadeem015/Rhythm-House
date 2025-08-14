@@ -92,3 +92,15 @@ document.getElementById("searchBar").addEventListener("input", function () {
 
   renderMovies(filtered);
 });
+
+// Filter
+document.getElementById("movieGenreFilter").addEventListener("change", function () {
+  const selectedGenre = this.value;
+
+  if (!selectedGenre) {
+    renderMovies(allMovies); // Agar kuch select nahi to sari movies dikhao
+  } else {
+    const filtered = allMovies.filter(movie => movie.genre === selectedGenre);
+    renderMovies(filtered);
+  }
+});

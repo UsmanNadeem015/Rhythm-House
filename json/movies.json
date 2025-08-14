@@ -3,7 +3,7 @@
         "no": 1,
         "title": "Demon Slayer",
         "release-year": 2025,
-        "genre": "Action, Animation",
+        "genre": "Action",
         "price": "Rs 1500",
         "thumbnail": "M1.jpg"
     },
@@ -30,7 +30,7 @@
         "no": 4,
         "title": "F1",
         "release-year": 2025,
-        "genre": "Action, Sport",
+        "genre": "Sports",
         "price": "Rs 2000",
         "thumbnail": "M4.jpg"
     },
@@ -39,7 +39,7 @@
         "no": 5,
         "title": "Inception",
         "release-year": 2010,
-        "genre": "Action, Adventure, Sci-Fi",
+        "genre": "Action, Sci-fi",
         "price": "Rs 1700",
         "thumbnail": "M5.jpg"
     },
@@ -48,7 +48,7 @@
         "no": 6,
         "title": "The Matrix",
         "release-year": 1999,
-        "genre": "Action, Sci-Fi",
+        "genre": "Action, Sci-fi",
         "price": "Rs 3000",
         "thumbnail": "M6.jpg"
     },
@@ -57,7 +57,7 @@
         "no": 7,
         "title": "Interstellar",
         "release-year": 2014,
-        "genre": "Adventure, Drama, Sci-Fi",
+        "genre": "Drama, Sci-Fi",
         "price": "Rs 2550",
         "thumbnail": "M7.jpg"
     },
@@ -66,7 +66,7 @@
         "no": 8,
         "title": "The Dark Knight",
         "release-year": 2008,
-        "genre": "Action, Crime, Drama",
+        "genre": "Action, Crime",
         "price": "Rs 2000",
         "thumbnail": "M8.jpg"
     },
@@ -75,7 +75,7 @@
         "no": 9,
         "title": "Fight Club",
         "release-year": 1999,
-        "genre": "Crime, Drama, Thriller",
+        "genre": "Action, Crime",
         "price": "Rs 3000",
         "thumbnail": "M9.jpg"
     },
