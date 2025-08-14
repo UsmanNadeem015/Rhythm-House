@@ -4,7 +4,7 @@
         "title": "Demon Slayer",
         "release-year": 2025,
         "genre": "Action, Animation",
-        "price": "500 pkr",
+        "price": "Rs 1500",
         "thumbnail": "M1.jpg"
     },
 
@@ -13,7 +13,7 @@
         "title": "Fantastic Four: First Steps",
         "release-year": 2025,
         "genre": "Action, Sci-fi",
-        "price": "500 pkr",
+        "price": "Rs 1400",
         "thumbnail": "M2.jpg"
     },
 
@@ -22,7 +22,7 @@
         "title": "The Naked gun",
         "release-year": 2025,
         "genre": "Action, Comedy",
-        "price": "500 pkr",
+        "price": "Rs 1600",
         "thumbnail": "M3.jpg"
     },
 
@@ -31,7 +31,7 @@
         "title": "F1",
         "release-year": 2025,
         "genre": "Action, Sport",
-        "price": "500 pkr",
+        "price": "Rs 2000",
         "thumbnail": "M4.jpg"
     },
 
@@ -40,7 +40,7 @@
         "title": "Inception",
         "release-year": 2010,
         "genre": "Action, Adventure, Sci-Fi",
-        "price": "500 pkr",
+        "price": "Rs 1700",
         "thumbnail": "M5.jpg"
     },
 
@@ -49,7 +49,7 @@
         "title": "The Matrix",
         "release-year": 1999,
         "genre": "Action, Sci-Fi",
-        "price": "500 pkr",
+        "price": "Rs 3000",
         "thumbnail": "M6.jpg"
     },
 
@@ -58,7 +58,7 @@
         "title": "Interstellar",
         "release-year": 2014,
         "genre": "Adventure, Drama, Sci-Fi",
-        "price": "500 pkr",
+        "price": "Rs 2550",
         "thumbnail": "M7.jpg"
     },
 
@@ -67,7 +67,7 @@
         "title": "The Dark Knight",
         "release-year": 2008,
         "genre": "Action, Crime, Drama",
-        "price": "500 pkr",
+        "price": "Rs 2000",
         "thumbnail": "M8.jpg"
     },
 
@@ -76,7 +76,7 @@
         "title": "Fight Club",
         "release-year": 1999,
         "genre": "Crime, Drama, Thriller",
-        "price": "500 pkr",
+        "price": "Rs 3000",
         "thumbnail": "M9.jpg"
     },
 
@@ -85,7 +85,7 @@
         "title": "Pulp Fiction",
         "release-year": 1994,
         "genre": "Crime, Drama",
-        "price": "500 pkr",
+        "price": "Rs 1400",
         "thumbnail": "M10.jpg"
     },
 
@@ -94,7 +94,7 @@
         "title": "Forrest Gump",
         "release-year": 1994,
         "genre": "Drama, Romance",
-        "price": "500 pkr",
+        "price": "Rs 2550",
         "thumbnail": "M11.jpg"
     },
 
@@ -103,7 +103,7 @@
         "title": "The Godfather",
         "release-year": 1972,
         "genre": "Crime, Drama",
-        "price": "500 pkr",
+        "price": "Rs 3000",
         "thumbnail": "M12.jpg"
     }
 

@@ -5,7 +5,7 @@
    "artist": "Frank Ocean",
    "release-year": 2025,
    "catagory": "Contemporary R&B. Soul",
-   "price": "500 pkr",
+   "price": "Rs 1000",
    "thumbnail": "1.jpg"
     
  },
@@ -16,7 +16,7 @@
    "artist": "Freddie Gibbs & Alchemist",
    "release-year": 2025,
    "catagory": "Hip Hop",
-   "price": "500 pkr",
+   "price": "Rs 1050",
    "thumbnail": "2.jpg"
  },
 
@@ -26,7 +26,7 @@
    "artist": "Ozzy Osbourne",
    "release-year": 2021,
    "catagory": "Heavy' Metal. Hard Rock",
-   "price": "500 pkr",
+   "price": "Rs 1300",
    "thumbnail": "3.jpg"
  },
  
@@ -36,7 +36,7 @@
    "artist": "Tame Impala",
    "release-year": 2021,
    "catagory": "House, Tecnno",
-   "price": "500 pkr",
+   "price": "Rs 1200",
    "thumbnail": "4.jpg"
  },
 
@@ -46,7 +46,7 @@
    "artist": "Billy Joel, Richard J0",
    "release-year": 2001,
    "catagory": "Contemporary",
-   "price": "500 pkr",
+   "price": "Rs 1900",
    "thumbnail": "5.jpg"
  },
 
@@ -56,7 +56,7 @@
    "artist": "Masayoshi Takanaka",
    "release-year": 2024,
    "catagory": "Jazz, Laon, Fusion",
-   "price": "500 pkr",
+   "price": "Rs 2000",
    "thumbnail": "6.jpg"
  },
 
@@ -66,7 +66,7 @@
    "artist": "Ozzy Osbourne",
    "release-year": 2011,
    "catagory": "Heavy Metal",
-   "price": "500 pkr",
+   "price": "Rs 1500",
    "thumbnail": "7.jpeg"
  },
 
@@ -76,7 +76,7 @@
    "artist": "F7",
    "release-year": 2025,
    "catagory": "Techno. Dub Techno",
-   "price": "500 pkr",
+   "price": "Rs 1800",
    "thumbnail": "8.jpg"
  },
 
@@ -86,7 +86,7 @@
    "artist": "Massive Attack",
    "release-year": 2016,
    "catagory": "Electronic, Trip Hop",
-   "price": "500 pkr",
+   "price": "Rs 1740",
    "thumbnail": "9.jpg"
  },
 
@@ -96,7 +96,7 @@
    "artist": "State Of sound",
    "release-year": 1995,
    "catagory": "House",
-   "price": "500 pkr",
+   "price": "Rs 900",
    "thumbnail": "10.jpg"
  },
 
@@ -106,7 +106,7 @@
    "artist": "Clipse, Pusha T & Malice",
    "release-year": 2025,
    "catagory": "Hip Hop",
-   "price": "500 pkr",
+   "price": "Rs 1300",
    "thumbnail": "11.jpg"
  },
 
@@ -116,7 +116,7 @@
    "artist": "Daft Punk",
    "release-year": 2013,
    "catagory": "Electronic, pop",
-   "price": "500 pkr",
+   "price": "Rs 3500",
    "thumbnail": "12.jpeg"
  }
 
