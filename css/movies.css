@@ -49,6 +49,10 @@
   flex-grow: 1;
 }
 
+.navbar-links i{
+  color: #1db954 !important;
+}
+
 .navbar-links {
   display: flex;
   gap: 36px;

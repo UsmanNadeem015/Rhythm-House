@@ -37,9 +37,8 @@
 
 /* LOGO */
 .navbar-logo img {
-  height: 48px;
+  height: 40px !important;
   object-fit: contain;
-  filter: brightness(1.2);
 }
 
 /* CENTER SECTION */
@@ -47,6 +46,10 @@
   display: flex;
   justify-content: center;
   flex-grow: 1;
+}
+
+.navbar-links i{
+  color: #1db954 !important;
 }
 
 .navbar-links {
@@ -606,6 +609,13 @@ text-align: center;
     transition: transform 0.2s ease;
 }
 
+@media (max-width: 768px){
+ .event-imgs{
+  width: 260px;
+  margin-left: 60px;
+ }
+}
+
 /* Event End  */
 
 
@@ -725,7 +735,6 @@ text-align: center;
   .img-history{
     height: 300px;
     width: 300px;
-
   }
 }
 
@@ -942,4 +951,10 @@ color: white;
 .sub-heading{
   text-align: center;
   padding-top: 15px;
+}
+
+@media (max-width: 768px){
+  .green-line{
+    width: 100%;
+  }
 }

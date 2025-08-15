@@ -35,6 +35,10 @@
   flex-shrink: 0;
 }
 
+.navbar-links i{
+  color: #1db954 !important;
+}
+
 /* LOGO */
 .navbar-logo img {
   height: 48px;

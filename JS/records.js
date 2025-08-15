@@ -8,8 +8,8 @@ const menuContent = document.getElementById("menu-content");
 
 // Update menu items based on screen size
 function updateMenuItems() {
+  // Mobile view
   if (window.innerWidth <= 768) {
-    // Mobile view
     menuContent.innerHTML = `
       <ul>
         <li><a href="index.html">Home</a></li>
@@ -17,19 +17,18 @@ function updateMenuItems() {
         <li><a href="movies.html">Movies</a></li>
         <li><a href="bookmag.html">Books & Magazines</a></li>
         <li><a href="events.html">Live Events</a></li>
-        <li><a href="membership.html">Membership</a></li>
+        <li><a href="discounts.html">Discounts</a></li>
         <li><a href="about.html">About</a></li>
-        <li><a href="contact.html">Contact</a></li>
       </ul>
     `;
-  } else {
-    // PC view
+  } 
+  // PC view
+  else {
     menuContent.innerHTML = `
       <ul>
         <li><a href="events.html">Live Events</a></li>
-        <li><a href="membership.html">Membership</a></li>
+        <li><a href="discounts.html">Discounts</a></li>
         <li><a href="about.html">About</a></li>
-        <li><a href="contact.html">Contact</a></li>
       </ul>
     `;
   }
