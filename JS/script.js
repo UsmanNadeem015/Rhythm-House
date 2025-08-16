@@ -33,7 +33,7 @@ menuToggle.addEventListener("click", () => {
   menuContent.classList.toggle("active");
 });
 
-// Update menu on load + resize
+// Update menu on load or resize
 updateMenuItems();
 window.addEventListener("resize", updateMenuItems);
 
