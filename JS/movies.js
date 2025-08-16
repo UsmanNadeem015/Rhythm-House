@@ -18,7 +18,7 @@ function updateMenuItems() {
         <li><a href="bookmag.html">Books & Magazines</a></li>
         <li><a href="events.html">Live Events</a></li>
         <li><a href="discounts.html">Discounts</a></li>
-        <li><a href="about.html">About</a></li>
+        <li><a href="about.html">About Us</a></li>
       </ul>
     `;
   } else {
@@ -27,7 +27,7 @@ function updateMenuItems() {
       <ul>
         <li><a href="events.html">Live Events</a></li>
         <li><a href="discounts.html">Discounts</a></li>
-        <li><a href="about.html">About</a></li>
+        <li><a href="about.html">About Us</a></li>
       </ul>
     `;
   }

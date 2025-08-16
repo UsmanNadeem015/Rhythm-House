@@ -14,18 +14,16 @@ function updateMenuItems() {
         <li><a href="records.html">Records</a></li>
         <li><a href="movies.html">Movies</a></li>
         <li><a href="bookmag.html">Books & Magzines</a></li>
-        <li><a href="#">Live Events</a></li>
-        <li><a href="#">Membership</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><a href="events.html">Live Events</a></li>
+        <li><a href="discounts.html">Discounts</a></li>
       </ul>
     `;
 // PC view
   } else {
     menuContent.innerHTML = `
       <ul>
-        <li><a href="#">Live Events</a></li>
-        <li><a href="#">Membership</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><a href="events.html">Live Events</a></li>
+        <li><a href="discounts.html">Discounts</a></li>
       </ul>
     `;
   }

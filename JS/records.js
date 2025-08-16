@@ -6,7 +6,7 @@ document.getElementById("foot").innerHTML = foot;
 const menuToggle = document.getElementById("menu-toggle");
 const menuContent = document.getElementById("menu-content");
 
-// Update menu items based on screen size
+// Update menu based on screen size
 function updateMenuItems() {
   // Mobile view
   if (window.innerWidth <= 768) {
@@ -34,7 +34,6 @@ function updateMenuItems() {
   }
 }
 
-// Toggle menu visibility
 menuToggle.addEventListener("click", () => {
   menuContent.classList.toggle("active");
 });

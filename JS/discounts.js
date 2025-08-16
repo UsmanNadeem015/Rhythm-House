@@ -15,6 +15,7 @@ function updateMenuItems() {
         <li><a href="movies.html">Movies</a></li>
         <li><a href="bookmag.html">Books & Magzines</a></li>
         <li><a href="events.html">Live Events</a></li>
+        <li><a href="about.html">About Us</a></li>
       </ul>
     `;
 // PC view
@@ -22,7 +23,7 @@ function updateMenuItems() {
     menuContent.innerHTML = `
       <ul>
         <li><a href="events.html">Live Events</a></li>
-        <li><a href="about.html">About</a></li>
+        <li><a href="about.html">About Us</a></li>
       </ul>
     `;
   }

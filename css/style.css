@@ -408,6 +408,7 @@
   padding: 20px;
   border-radius: 10px;
   max-width: 400px;
+  color: #1db954 !important;
 }
 
 .mobile-caption {
@@ -415,6 +416,7 @@
   padding: 10px;
   border-radius: 10px;
   max-width: 300px;
+  color: #1db954 !important;
 }
 
 /* SLider End */
@@ -431,11 +433,11 @@ display: flex;
   color: #1db954;
 } 
 
-
 .products-heading h1{
 color: #1db954;
 text-align: center;
 }
+
 .green-line {
   background-color: #1db954;
   border-radius: 10px;
@@ -743,8 +745,7 @@ text-align: center;
 /* Contact Start */
 .contact-section {
   background-color: #181818;
-  padding: 20px;
-  padding-bottom: 100px;
+  padding: 0px 20px 80px 20px;
 }
 
 .contact-sub {
@@ -958,3 +959,4 @@ color: white;
     width: 100%;
   }
 }
+
