@@ -91,9 +91,7 @@ document.getElementById("searchBar").addEventListener("input", function () {
     const year = item["release-year"]?.toString() || "";
 
     return (
-      title.includes(query) ||
-      artist.includes(query) ||
-      year.includes(query)
+      title.includes(query) || artist.includes(query) || year.includes(query)
     );
   });
 

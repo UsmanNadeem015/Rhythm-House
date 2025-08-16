@@ -116,7 +116,6 @@ const salesChart = new Chart(ctx, {
 
 
 // Contact
-
 // Prevents loading on click on submit btn
 document.getElementById("contact-submit").addEventListener("click", function(event) {
   event.preventDefault()  
