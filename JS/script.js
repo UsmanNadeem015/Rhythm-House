@@ -114,9 +114,73 @@ const salesChart = new Chart(ctx, {
   }
 });
 
-
 // Contact
-// Prevents loading on click on submit btn
 document.getElementById("contact-submit").addEventListener("click", function(event) {
-  event.preventDefault()  
-})
+  event.preventDefault(); // stop form refresh
+
+  let name = document.getElementById("name").value.trim();
+  let email = document.getElementById("email").value.trim();
+  let message = document.getElementById("message").value.trim();
+
+  // Validation
+  if (name == "") {
+    alert("Full Name is required");
+    return;
+  }
+
+  if (email.includes("@") == false || email.includes(".") == false) {
+    alert("Please enter a valid email address");
+    return;
+  }
+
+  if (message.length < 10) {
+    alert("Message must be at least 10 characters long");
+    return;
+  }
+
+  // Save to Local Storage
+  localStorage.setItem("contactName", name);
+  localStorage.setItem("contactEmail", email);
+  localStorage.setItem("contactMessage", message);
+
+  alert("✅ Thank you! Your message has been saved.");
+
+  // Clear form
+  document.getElementById("contact-form").reset();
+});
+
+
+// ONLY UN COMMENT " // " COMMENTS DO NOT UN COMMENT " */ " COMMENTS
+
+/* ================================
+   View Saved Data
+   (ONLY UN COMMENT WHEN NEEDED)
+================================= */
+// let savedName = localStorage.getItem("contactName");
+// let savedEmail = localStorage.getItem("contactEmail");
+// let savedMessage = localStorage.getItem("contactMessage");
+
+// if (savedName || savedEmail || savedMessage) {
+//   console.log("===== Saved Contact Message =====");
+//   console.log("Name:", savedName);
+//   console.log("Email:", savedEmail);
+//   console.log("Message:", savedMessage);
+//   console.log("==============================");
+// } else {
+//   console.log("No data saved yet.");
+// }
+
+
+/* ================================
+   Clear Saved Data
+   (ONLY UN COMMENT WHEN NEEDED)
+================================= */
+
+// localStorage.removeItem("contactName");
+// localStorage.removeItem("contactEmail");
+// localStorage.removeItem("contactMessage");
+// console.log("Contact form data cleared!");
+
+
+
+// Contact End
